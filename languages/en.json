@@ -1,0 +1,76 @@
+{
+  "RNK": {
+    "BloodCharge": {
+      "ModuleTitle": "LD Blood Charge",
+      "SceneControlTitle": "Blood Charge",
+      "SceneControlTooltip": "Open Blood Charge Hub",
+      "GMHub": {
+        "Title": "LD Blood Charge",
+        "SubTitle": "Manage Player Charges",
+        "SectionTitle": "Feed The Urge",
+        "GlobalMax": "Global Max Charge",
+        "BtnSetAll": "Set All",
+        "BtnRefillAll": "Refill All",
+        "BtnDrainAll": "Drain All",
+        "BtnClose": "Close",
+        "DecreaseTitle": "Decrease Charge",
+        "IncreaseTitle": "Increase Charge",
+        "CloseTitle": "Close",
+        "RequestTitle": "Blood Charge Request",
+        "RequestContent": "<p><strong>{requesterName}</strong> has requested a Blood Charge for <strong>{actorName}</strong>.</p><p>Grant +1 Blood Charge?</p>",
+        "Grant": "Grant",
+        "Deny": "Deny"
+      },
+      "PlayerWidget": {
+        "Title": "Blood Charge",
+        "SubTitle": "Feed The Urge",
+        "BtnBargain": "Bargain",
+        "BtnRequest": "Request Charge",
+        "BtnSurge": "Surge",
+        "LabelCurrent": "Current",
+        "LabelMax": "Maximum",
+        "StatusSubtitle": "Blood Charge Status",
+        "BargainInfo": "Bargain requests are sent to the GM for approval.",
+        "RequestTitle": "Request more Blood Charge from the GM",
+        "SurgeTitle": "Use a Blood Charge for a powerful surge",
+        "CloseTitle": "Close"
+      },
+      "Notifications": {
+        "NotEnoughCharge": "Not enough Blood Charge.",
+        "ChargeGranted": "Blood Charge granted.",
+        "ChargeSpent": "Blood Charge spent.",
+        "BargainSent": "Bargain request sent to GM.",
+        "NoCharacter": "No character assigned to your user.",
+        "NoChargeAvailable": "No Blood Charge available to surge.",
+        "MaxReached": "{actorName} is at maximum Blood Charge.",
+        "ChargeAdded": "Added Blood Charge to {actorName}.",
+        "ChargeUsed": "{actorName} used a Blood Charge.",
+        "TokenRequired": "Select a token or set a default character.",
+        "OwnershipRequired": "You do not own this character.",
+        "GrantApproved": "Granted 1 Blood Charge to {actorName}.",
+        "GrantDenied": "Denied Blood Charge request from {requesterName}.",
+        "SpendSuccess": "{actorName} spent {amount} Blood Charge(s) for {abilityName}. Remaining: {remaining}.",
+        "GrantSuccess": "{actorName} received {amount} Blood Charge(s) as {reason}. Total: {total}.",
+        "MaxAlready": "{actorName} is already at maximum Blood Charge ({maxCharge}).",
+        "SpendFailure": "{actorName} does not have enough Blood Charges ({currentCharge}) to spend {amount}.",
+        "AbilityNotAffordable": "{actorName} could not afford to use {abilityName} (needs {chargeCost} charges)."
+      },
+      "Settings": {
+        "BloodChargeMax": "Default Blood Charge Maximum",
+        "BloodChargeMaxHint": "Sets the default maximum Blood Charge for all player characters."
+      }
+    }
+  },
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Blood Charge",
+      "SubTitle": "Feed The Urge",
+      "MainLabel": "Feed The Urge",
+      "ControlsGlobal": "Global Controls:",
+      "BtnSanguineBlessing": "Sanguine Blessing",
+      "BtnBlightsCurse": "Blights Curse",
+      "BtnSetCharge": "Set Charge",
+      "BtnClose": "Close"
+    }
+  }
+}

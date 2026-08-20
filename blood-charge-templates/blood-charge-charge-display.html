@@ -1,0 +1,17 @@
+<div class="bc-controls-wrapper">
+  <div class="bc-control-group">
+    <button type="button" data-action="add-all" class="bc-action-btn">
+      <i class="fas fa-plus-circle"></i> {{localize 'CRIMSON_BLOOD.BLOOD_CHARGE.BtnSanguineBlessing'}}
+    </button>
+    <button type="button" data-action="subtract-all" class="bc-action-btn">
+      <i class="fas fa-minus-circle"></i> {{localize 'CRIMSON_BLOOD.BLOOD_CHARGE.BtnBlightsCurse'}}
+    </button>
+  </div>
+
+  <div class="bc-control-group set-charge">
+    <input type="number" class="bc-charge-input global-charge-set-value" value="0" min="0" max="6" />
+    <button type="button" data-action="set-all" class="bc-action-btn secondary">
+      {{localize 'CRIMSON_BLOOD.BLOOD_CHARGE.BtnSetCharge'}}
+    </button>
+  </div>
+</div>

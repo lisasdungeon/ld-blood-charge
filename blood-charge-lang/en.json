@@ -1,0 +1,15 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Blood Charge",
+      "ControlsGlobal": "Global Controls:",
+      "BtnSanguineBlessing": "Sanguine Blessing",
+      "BtnBlightsCurse": "Blights Curse",
+      "BtnSetCharge": "Set Charge",
+      "BtnClose": "Close"
+    }
+  },
+  "CRIMSON_BLOOD.BLOOD_CHARGE.HubTitle": "Blood Charge",
+  "CRIMSON_BLOOD.BLOOD_CHARGE.SubTitle": "Feed The Urge",
+  "CRIMSON_BLOOD.BLOOD_CHARGE.MainLabel": "Savor the Stench"
+}

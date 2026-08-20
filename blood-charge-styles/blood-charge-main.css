@@ -1,0 +1,226 @@
+/* Blood Charge - Gothic Redesign */
+
+:root {
+  --bc-bg: #0a0a0a;
+  --bc-panel-bg: #111111;
+  --bc-accent: #8a0303; /* Deep Crimson */
+  --bc-accent-glow: #ff0000;
+  --bc-text-main: #e0e0e0;
+  --bc-text-muted: #888888;
+  --bc-border: #440a0a;
+  --bc-font-header: 'Cinzel', serif;
+  --bc-font-body: 'Crimson Text', serif;
+}
+
+.blood-charge-gm-hub {
+  background-color: var(--bc-bg);
+  color: var(--bc-text-main);
+  font-family: var(--bc-font-body);
+  border: 2px solid var(--bc-border);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Header */
+.bc-hub-header {
+  background: linear-gradient(to bottom, #1a0505, #0a0000);
+  border-bottom: 1px solid var(--bc-accent);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bc-hub-title {
+  font-family: var(--bc-font-header);
+  font-size: 1.4em;
+  color: var(--bc-accent);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+  text-shadow: 0 0 5px rgba(138, 3, 3, 0.5);
+}
+
+.bc-close-btn {
+  background: none;
+  border: none;
+  color: var(--bc-text-muted);
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.bc-close-btn:hover {
+  color: var(--bc-accent-glow);
+}
+
+/* Main Content Area */
+.bc-hub-content {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Central Charge Display (The "Feed The Urge" section) */
+.bc-charge-section {
+  background: var(--bc-panel-bg);
+  border: 1px solid var(--bc-border);
+  padding: 15px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.5);
+}
+
+.bc-section-title {
+  font-family: var(--bc-font-header);
+  color: var(--bc-text-muted);
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  border-bottom: 1px solid var(--bc-border);
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+/* Player Grid */
+.bc-player-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+/* Player Card */
+.bc-player-card {
+  background: linear-gradient(135deg, #1a1a1a, #0f0f0f);
+  border: 1px solid var(--bc-border);
+  border-radius: 4px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.bc-player-card:hover {
+  border-color: var(--bc-accent);
+  box-shadow: 0 0 8px rgba(138, 3, 3, 0.3);
+}
+
+.bc-player-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--bc-border);
+  object-fit: cover;
+}
+
+.bc-player-info {
+  flex: 1;
+  overflow: hidden;
+}
+
+.bc-player-name {
+  font-family: var(--bc-font-header);
+  font-size: 1.1em;
+  color: var(--bc-text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.bc-player-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 5px;
+}
+
+.bc-control-btn {
+  background: #2a2a2a;
+  border: 1px solid #333;
+  color: var(--bc-text-main);
+  width: 24px;
+  height: 24px;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  transition: all 0.2s;
+}
+
+.bc-control-btn:hover {
+  background: var(--bc-accent);
+  border-color: var(--bc-accent);
+  color: white;
+}
+
+.bc-charge-input {
+  background: #000;
+  border: 1px solid var(--bc-border);
+  color: var(--bc-accent-glow);
+  width: 30px;
+  text-align: center;
+  font-family: var(--bc-font-header);
+  font-size: 1.1em;
+  border-radius: 3px;
+}
+
+.bc-charge-input:focus {
+  outline: none;
+  border-color: var(--bc-accent-glow);
+}
+
+/* Global Controls */
+.bc-controls-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.bc-control-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bc-action-btn {
+  background: linear-gradient(to bottom, #4a0a0a, #2a0505);
+  border: 1px solid var(--bc-border);
+  color: var(--bc-text-main);
+  padding: 8px 15px;
+  font-family: var(--bc-font-header);
+  font-size: 0.9em;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-transform: uppercase;
+}
+
+.bc-action-btn:hover {
+  background: var(--bc-accent);
+  border-color: var(--bc-accent-glow);
+  box-shadow: 0 0 10px rgba(138, 3, 3, 0.4);
+}
+
+.bc-action-btn.secondary {
+  background: #1a1a1a;
+  border-color: #333;
+}
+
+.bc-action-btn.secondary:hover {
+  background: #333;
+  border-color: #555;
+}

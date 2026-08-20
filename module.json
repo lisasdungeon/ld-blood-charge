@@ -1,0 +1,40 @@
+{
+  "id": "ld-blood-charge",
+  "title": "LD Blood Charge",
+  "description": "Tracks Blood Charge accumulation for vampire/dark-fantasy play. Provides a dual-hub interface for GMs to manage player charges and a player-facing widget for spending and requesting charges.",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "Lisa's Dungeon",
+      "url": "https://github.com/lisasdungeon",
+      "discord": "MystryssLysa",
+      "email": "Lisasdungeon@gmail.com",
+      "patreon": "https://patreon.com/LisasDungeon"
+    }
+  ],
+  "compatibility": {
+    "minimum": 13,
+    "verified": 14
+  },
+  "esmodules": [
+    "blood-charge-service-entry.js"
+  ],
+  "styles": [
+    "blood-charge-styles/blood-charge-main.css",
+    "blood-charge-styles/blood-charge-theme.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "socket": true,
+  "url": "https://github.com/ld-crimson-blood/ld-blood-charge",
+  "manifest": "https://github.com/ld-crimson-blood/ld-blood-charge/releases/latest/download/module.json",
+  "download": "https://github.com/ld-crimson-blood/ld-blood-charge/releases/latest/download/ld-blood-charge.zip",
+  "readme": "https://github.com/ld-crimson-blood/ld-blood-charge/blob/main/README.md",
+  "changelog": "https://github.com/ld-crimson-blood/ld-blood-charge/blob/main/CHANGELOG.md",
+  "license": "https://github.com/ld-crimson-blood/ld-blood-charge/blob/main/LICENSE"
+}

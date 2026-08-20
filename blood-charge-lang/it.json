@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Carica di Sangue",
+      "SubTitle": "Alimenta l'Impulso",
+      "MainLabel": "Assapora il Fetore",
+      "ControlsGlobal": "Controlli Globali:",
+      "BtnSanguineBlessing": "Benedizione Sanguigna",
+      "BtnBlightsCurse": "Maledizione della Rovina",
+      "BtnSetCharge": "Imposta Carica",
+      "BtnClose": "Chiudi"
+    }
+  }
+}

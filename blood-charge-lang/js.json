@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "ブラッドチャージ",
+      "SubTitle": "欲望を満たせ",
+      "MainLabel": "腐臭を味わえ",
+      "ControlsGlobal": "全体コントロール：",
+      "BtnSanguineBlessing": "血の祝福",
+      "BtnBlightsCurse": "破滅の呪い",
+      "BtnSetCharge": "チャージ設定",
+      "BtnClose": "閉じる"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+﻿<div class="bc-gm-hub">
+  <!-- HEADER -->
+  <div class="bc-hub-header">
+    <h2 class="bc-hub-title">{{localize 'LD.BloodCharge.GMHub.Title'}}</h2>
+    <button type="button" class="bc-close-btn close-btn" title="{{localize 'LD.BloodCharge.GMHub.CloseTitle'}}">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="bc-hub-content">
+    
+    <!-- CENTRAL MECHANIC (Feed The Urge) -->
+    <div class="bc-charge-section">
+      <h3 class="bc-section-title">{{localize 'LD.BloodCharge.GMHub.SectionTitle'}}</h3>
+      {{> blood-charge-charge-display }}
+    </div>
+
+    <!-- PLAYER GRID -->
+    <div class="bc-player-grid">
+      {{#each playersLeft}}
+        {{> blood-charge-player-tab player=this}}
+      {{/each}}
+      {{#each playersRight}}
+        {{> blood-charge-player-tab player=this}}
+      {{/each}}
+    </div>
+
+  </div>
+</div>
+

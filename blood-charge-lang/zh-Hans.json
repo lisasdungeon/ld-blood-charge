@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "鲜血充能",
+      "SubTitle": "满足欲望",
+      "MainLabel": "品味腐臭",
+      "ControlsGlobal": "全局控制：",
+      "BtnSanguineBlessing": "血色祝福",
+      "BtnBlightsCurse": "枯萎诅咒",
+      "BtnSetCharge": "设置充能",
+      "BtnClose": "关闭"
+    }
+  }
+}

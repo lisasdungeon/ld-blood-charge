@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "혈액 충전",
+      "SubTitle": "욕망을 채워라",
+      "MainLabel": "악취를 음미하라",
+      "ControlsGlobal": "전체 제어:",
+      "BtnSanguineBlessing": "피의 축복",
+      "BtnBlightsCurse": "파멸의 저주",
+      "BtnSetCharge": "충전 설정",
+      "BtnClose": "닫기"
+    }
+  }
+}

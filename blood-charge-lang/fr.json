@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Charge de Sang",
+      "SubTitle": "Nourrissez l'Envie",
+      "MainLabel": "Savourez la Puanteur",
+      "ControlsGlobal": "Contrôles Globaux :",
+      "BtnSanguineBlessing": "Bénédiction Sanguine",
+      "BtnBlightsCurse": "Malédiction de la Nuit",
+      "BtnSetCharge": "Définir la Charge",
+      "BtnClose": "Fermer"
+    }
+  }
+}

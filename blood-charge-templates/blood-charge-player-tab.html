@@ -1,0 +1,20 @@
+<div class="bc-player-card" data-player-id="{{player.id}}">
+  <img class="bc-player-avatar" src="{{player.img}}" alt="{{player.name}}">
+  
+  <div class="bc-player-info">
+    <span class="bc-player-name" title="{{player.name}}">{{player.name}}</span>
+    
+    <div class="bc-player-controls">
+      <button type="button" class="bc-control-btn" data-action="subtract-charge" title="{{localize 'LD.BloodCharge.GMHub.DecreaseTitle'}}">
+        <i class="fas fa-minus"></i>
+      </button>
+
+      <input type="number" class="bc-charge-input player-charge-set-value" value="{{player.currentCharge}}" min="0" max="6">
+
+      <button type="button" class="bc-control-btn" data-action="add-charge" title="{{localize 'LD.BloodCharge.GMHub.IncreaseTitle'}}">
+        <i class="fas fa-plus"></i>
+      </button>
+    </div>
+  </div>
+</div>
+

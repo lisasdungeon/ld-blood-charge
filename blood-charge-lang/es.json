@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Carga de Sangre",
+      "SubTitle": "Alimenta el Impulso",
+      "MainLabel": "Saborea el Hedor",
+      "ControlsGlobal": "Controles Globales:",
+      "BtnSanguineBlessing": "Bendición Sanguina",
+      "BtnBlightsCurse": "Maldición de la Plaga",
+      "BtnSetCharge": "Establecer Carga",
+      "BtnClose": "Cerrar"
+    }
+  }
+}

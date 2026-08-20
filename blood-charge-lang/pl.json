@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Ładunek Krwi",
+      "SubTitle": "Nakarm Pragnienie",
+      "MainLabel": "Delektuj się Odorem",
+      "ControlsGlobal": "Globalne Sterowanie:",
+      "BtnSanguineBlessing": "Krwawe Błogosławieństwo",
+      "BtnBlightsCurse": "Klątwa Plagi",
+      "BtnSetCharge": "Ustaw Ładunek",
+      "BtnClose": "Zamknij"
+    }
+  }
+}

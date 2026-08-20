@@ -1,0 +1,12 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Carga de Sangue",
+      "ControlsGlobal": "Controles Globais:",
+      "BtnSanguineBlessing": "Bênção Sanguínea",
+      "BtnBlightsCurse": "Maldição da Praga",
+      "BtnSetCharge": "Definir Carga",
+      "BtnClose": "Fechar"
+    }
+  }
+}

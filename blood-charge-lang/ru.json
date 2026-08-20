@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Заряд Крови",
+      "SubTitle": "Утоли Жажду",
+      "MainLabel": "Смакуй Зловоние",
+      "ControlsGlobal": "Общие элементы управления:",
+      "BtnSanguineBlessing": "Кровавое Благословение",
+      "BtnBlightsCurse": "Проклятие Увядания",
+      "BtnSetCharge": "Установить Заряд",
+      "BtnClose": "Закрыть"
+    }
+  }
+}

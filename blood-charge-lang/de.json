@@ -1,0 +1,14 @@
+{
+  "CRIMSON_BLOOD": {
+    "BLOOD_CHARGE": {
+      "HubTitle": "Blutladung",
+      "SubTitle": "Füttere den Drang",
+      "MainLabel": "Genieße den Gestank",
+      "ControlsGlobal": "Globale Steuerung:",
+      "BtnSanguineBlessing": "Sanguinischer Segen",
+      "BtnBlightsCurse": "Fluch der Fäulnis",
+      "BtnSetCharge": "Ladung festlegen",
+      "BtnClose": "Schließen"
+    }
+  }
+}
