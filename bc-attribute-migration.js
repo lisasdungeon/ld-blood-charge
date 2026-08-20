@@ -3,12 +3,12 @@
  * LD Blood Charge - Attribute Path Migration
  * 
  * Fixes items that reference the wrong module ID in their consumption configuration.
- * Migrates legacy module IDs to "rnk-crimson-blood" in item attributes.
+ * Migrates leftover blood-charge attribute paths onto "ld-blood-charge".
  */
 
 import { MODULE_ID } from './bc-constants.js';
 
-const LEGACY_MODULE_IDS = ['ragnaroks-crimson-blood', 'ragnarok-crimson-blood'];
+const LEGACY_MODULE_IDS = ['ragnaroks-crimson-blood', 'ragnarok-crimson-blood', 'rnk-crimson-blood', 'rnk-blood-charge'];
 const CORRECT_BLOOD_CHARGE_PATH = `flags.${MODULE_ID}.bloodCharge`;
 const CORRECT_BLOOD_CHARGE_MAX_PATH = `flags.${MODULE_ID}.bloodChargeMax`;
 

@@ -1,6 +1,6 @@
 {
   "name": "ld-blood-charge",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tracks Blood Charge accumulation for vampire/dark-fantasy play. Provides a dual-hub interface for GMs to manage player charges and a player-facing widget for spending and requesting charges.",
   "type": "module",
   "scripts": {

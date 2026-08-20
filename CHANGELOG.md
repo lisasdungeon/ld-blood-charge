@@ -7,6 +7,10 @@
 - Add LICENSE, package.json, syntax and validate checks.
 - Keep existing worlds working via `ld-legacy-migrate.js`.
 
+## [1.0.3] - 2026-08-20
+
+- Rewrite leftover `rnk-crimson-blood` / `rnk-blood-charge` item consumption paths onto `ld-blood-charge`.
+
 
 ## [1.0.2] - 2026-07-20
 
